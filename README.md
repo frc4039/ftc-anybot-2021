@@ -1,3 +1,15 @@
+# What is an Anybot?
+In the spirit of the Robonaut's FRC "Everybot", MakeShift's goal was to provide
+a starting point for rookie or low-resource FTC teams by building and
+documenting a simple but effective Freight Frenzy robot. We've limited
+ourselves to components in the kit plus &lt;$100 in purchased parts.  Only basic
+hand tools are required for fabrication and assembly.  Game analysis, CAD,
+basic code, and more are all publicly available.
+
+# Additional Resources
+This reporitory hosts the code for the Anybot. The rest of the documentation is
+available on a google drive [HERE](https://drive.google.com/drive/folders/1Xzzvxr9c_y4dhuHpzENi1ZPF3r75nz-y?usp=sharing).
+
 # Instructions to Run this Code on a Robot
 0. If you have not already, download AnybotTeleop.java file to your computer.
 
