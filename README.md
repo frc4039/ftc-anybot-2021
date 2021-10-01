@@ -1,5 +1,5 @@
 # Instructions to Run this Code on a Robot
-0. If you have not already, download this file to your computer.
+0. If you have not already, download AnybotTeleop.java file to your computer.
 
 1. Connect to the Control Hub's WiFi Network. If you have not yet configured
    the WiFi, follow the "Getting Started with the Control Hub" guide:
@@ -8,7 +8,10 @@
 2. Open a web browser and navigate to
    http://192.168.43.1:8080/?page=java/editor.html
 
-3. Click the "Upload Files" icon on the left, and select this file.
+3. Click the "Upload Files" icon on the left, and select the AnybotTeleop.java
+   file you downloaded earlier. The file will appear on the left. Click on it
+   to open it. Then click on the wrench on the right to build the code. You
+   should see "Build SUCCESSFUL!" appear in the bottom pane.
 
 4. A robot configuration will need to be created in the app to work with
    this code. This is the motor configuration we used, but you may need to
@@ -43,6 +46,6 @@
 5. Connect the controller, and press Start + A. A controller icon should
    appear in the upper right corner of the app.
 
-6. Click the arrow on the right to select "Everybot Teleop". When you are
+6. Click the arrow on the right to select "Anybot Teleop". When you are
    ready to run the code, press the "INIT" button, then the play button.
    A stop button will be in the same position as the play button was.
