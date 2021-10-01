@@ -87,8 +87,8 @@ public class AnybotTeleop extends OpMode
         // If we send +1.0 power to each drive motor, the robot will turn. This
         // is because the one motor is rotated 180 degrees from the other. To
         // fix this, we need to invert the motor direction on one side.
-        leftDrive.setDirection(DcMotor.Direction.REVERSE);
-        rightDrive.setDirection(DcMotor.Direction.FORWARD);
+        leftDrive.setDirection(DcMotor.Direction.FORWARD);
+        rightDrive.setDirection(DcMotor.Direction.REVERSE);
 
         // Tell the driver that initialization is complete.
         telemetry.addData("Status", "Initialized");
@@ -122,8 +122,8 @@ public class AnybotTeleop extends OpMode
         drive = drive * drive * Math.signum(drive);
         turn = turn * turn * Math.signum(turn);
 
-        leftDrive.setPower(Range.clip(drive + turn, -1.0, 1.0));
-        rightDrive.setPower(Range.clip(drive - turn, -1.0, 1.0));
+        leftDrive.setPower(Range.clip(drive - turn, -1.0, 1.0));
+        rightDrive.setPower(Range.clip(drive + turn, -1.0, 1.0));
 
         // Intake will be run in one direction when the left trigger is
         // pressed, and in the other when the right trigger is. They are analog
